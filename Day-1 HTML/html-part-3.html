@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> -->
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> -->
+<html lang="en">
+  <head>
+    <title>My 1st Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" />
+  </head>
+  <body>
+    <!--  when we want to marge multiple row for single column ==> rowspan -->
+    <!--  when we want to marge multiple columns for single row ==> colspan -->
+    <table border="1" width="95%" cellspacing="0" cellpadding="10">
+      <thead>
+        <tr>
+          <th>Column-1</th>
+          <th>Column-2</th>
+          <th>Column-3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Row1 Cell-1</td>
+          <td>Row1 Cell-2</td>
+          <td>Row1 Cell-3</td>
+        </tr>
+        <tr>
+          <!-- <td>Row1 Cell-1</td> -->
+          <td>Row2 Cell-2</td>
+          <td>Row2 Cell-3</td>
+        </tr>
+        <tr>
+          <td colspan="3">Row 3 Cell-1</td>
+          <!-- <td>Row 3 Cell-1</td>
+          <td>Row 3 Cell-1</td> -->
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

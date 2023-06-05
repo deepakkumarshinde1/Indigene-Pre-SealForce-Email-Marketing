@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> -->
-<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> -->
 <html lang="en">
   <head>
     <title>My 1st Page</title>
@@ -8,45 +6,68 @@
     <meta name="viewport" />
   </head>
   <body>
-    <!-- table , thead , tbody , tfoot , tr , th , td
-        table 
-            thead ==> table head (main head)
-                tr ==> table row
-                    th ==> table heading cell
-                    td ==> table data cell
-            tbody ==> table body (data)
-                tr
-                    th/td
-            tfoot ==> table footer (summery of content )
-                tr 
-                    th/td
+    <!-- form 
+        input
 
+        structure element ==> div
     -->
-    <table width="100%" border="1" cellspacing="0" cellpadding="10">
-      <thead>
-        <tr>
-          <th>FirstName</th>
-          <th>LastName</th>
-          <th>Age</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Priya</td>
-          <td>Sharma</td>
-          <td>24</td>
-        </tr>
-        <tr>
-          <td>Priya</td>
-          <td>Sharma</td>
-          <td>24</td>
-        </tr>
-        <tr>
-          <td>Priya</td>
-          <td>Sharma</td>
-          <td>24</td>
-        </tr>
-      </tbody>
-    </table>
+    <fieldset>
+      <legend>User Login</legend>
+      <form>
+        <div>
+          <label>Name</label>
+          <input type="text" placeholder="Enter Name" />
+        </div>
+        <div>
+          <label>Age</label>
+          <input type="number" placeholder="Enter Age" />
+        </div>
+      </form>
+    </fieldset>
+    <hr />
+    <fieldset>
+      <legend>User Registration</legend>
+      <form>
+        <div>
+          <label for="">Enter Full Name</label>
+          <input type="text" placeholder="Enter Name" />
+        </div>
+
+        <div>
+          <label for="">Mobile Number</label>
+          <input type="number" placeholder="Enter Name" />
+        </div>
+
+        <div>
+          <label for="">Email</label>
+          <input type="email" placeholder="Enter Email" />
+        </div>
+
+        <div>
+          <label for="">Gender</label>
+          <input type="radio" name="gender" />
+          <label for="">Male</label>
+
+          <input type="radio" name="gender" />
+          <label for="">Female</label>
+
+          <input type="radio" other="gender" />
+          <label for="">Other</label>
+        </div>
+        <div>
+          <label for="">City</label>
+          <select>
+            <option value="">--- Select ---</option>
+            <option value="">Mumbai</option>
+            <option value="">Surat</option>
+            <option value="">Chennai</option>
+          </select>
+        </div>
+        <div>
+          <label for="">Address</label>
+          <textarea cols="30" rows="5"></textarea>
+        </div>
+      </form>
+    </fieldset>
   </body>
 </html>
