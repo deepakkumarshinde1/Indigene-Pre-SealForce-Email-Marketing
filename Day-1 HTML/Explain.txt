@@ -1,0 +1,33 @@
+HTML => HyperText Markup Language
+ HyperText ==> Way of Move From Page To Other Page By Symbol or Text Pattern
+    => Collection Symbol & Text
+
+ Markup ==> Syntax Pattern HTML
+    <NameOfMarkup> ==> Open Tag
+    </NameOfMarkup> ==> Close Tag
+    <NameOfMarkup /> ==> Self Closing Tag
+
+ Language
+    ==> We write it which has a way of expression
+
+    <NameOfMarkup>  data/content  </NameOfMarkup> ==> HTML Elements
+    <NameOfMarkup data/content /> ==> HTML Elements
+
+    # Basic Elements
+        html ==> Parent Element/ Root Element
+        head ==> web page information is store
+        body ==> display the data
+
+        <meta charset=""/>
+        charset ==> attribute ==>
+
+    # Typography Elements
+        When elements get print on same line called as inline-element
+        When elements get print on new line called as block element
+        h1 ... h6
+        p , i , u , string , mark
+    # List Element
+    # Forms Elements
+    # Tables Elements
+    # Structure Elements
+    # More Elements
