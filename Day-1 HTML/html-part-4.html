@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My 1st Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" />
+  </head>
+  <body>
+    <!-- form 
+        input
+
+        structure element ==> div
+    -->
+    <fieldset>
+      <legend>User Login</legend>
+      <form>
+        <div>
+          <label>Name</label>
+          <input type="text" placeholder="Enter Name" />
+        </div>
+        <div>
+          <label>Age</label>
+          <input type="number" placeholder="Enter Age" />
+        </div>
+      </form>
+    </fieldset>
+    <hr />
+    <fieldset>
+      <legend>User Registration</legend>
+      <form>
+        <div>
+          <label for="">Enter Full Name</label>
+          <input required type="text" placeholder="Enter Name" />
+        </div>
+
+        <div>
+          <label for="">Mobile Number</label>
+          <input type="number" placeholder="Enter Name" />
+        </div>
+
+        <div>
+          <label for="">Email</label>
+          <input required type="email" placeholder="Enter Email" />
+        </div>
+
+        <div>
+          <label for="">Gender</label>
+          <input type="radio" name="gender" checked />
+          <label for="">Male</label>
+
+          <input type="radio" name="gender" />
+          <label for="">Female</label>
+
+          <input type="radio" other="gender" />
+          <label for="">Other</label>
+        </div>
+        <div>
+          <label for="">City</label>
+          <select>
+            <option value="">--- Select ---</option>
+            <option value="">Mumbai</option>
+            <option value="">Surat</option>
+            <option value="">Chennai</option>
+          </select>
+        </div>
+        <div>
+          <label for="">Address</label>
+          <textarea cols="30" rows="5"></textarea>
+        </div>
+        <div>
+          <input type="date" />
+          <input type="time" />
+          <input type="color" />
+          <input type="checkbox" checked />
+        </div>
+        <div>
+          <input type="file" multiple />
+          <!-- <input type="submit" />
+          <input type="reset" /> -->
+
+          <button type="submit">Submit</button>
+          <button type="reset">Clear</button>
+        </div>
+      </form>
+    </fieldset>
+  </body>
+</html>

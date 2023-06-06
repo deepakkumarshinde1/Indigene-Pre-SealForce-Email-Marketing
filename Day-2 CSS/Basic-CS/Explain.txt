@@ -1,0 +1,67 @@
+CSS (Cascading Style Sheet) ==> Design web page 
+    ==> Browser CSS (default)
+    ==> Custom CSS
+        inline css ==> style attribute
+        internal css ==> style element
+        external css ==> style(css) file
+        we write a code ::
+            css_property : css_value;
+            css_property : css_value css_value1 css_value;  
+            css_property : css_value;
+
+    code flows from top to bottom
+    Selectors ==> we have different ways to select a element
+        element => h1, span , mark
+        class ==> .className
+        id => #idName
+
+    Selector Specificity
+        element < class < id
+
+    Email CSS
+        height
+        width
+        padding
+        margin
+        border
+        border-collapse
+        font-size
+        font-weight
+        font-style
+        font-family
+        text-align
+        text-decoration
+
+    Email CSS unit
+        px (works asper screen resolution)
+        % (work as per size of page)
+    
+    Email CSS color in hex code
+
+    r(red) g(green) b(blue) => color model
+
+    0 (dark) ==> f (bright)
+
+    rgb => rrggbb => 00 00 00 ==> (black)
+    rgb => rrggbb => ff ff ff ==> (white)
+    rgb => rrggbb => 88 88 88 ==> (gray)
+    rgb => rrggbb => ff 00 00 ==> (red)
+    rgb => rrggbb => 00 ff 00 ==> (green)
+    rgb => rrggbb => 00 00 ff ==> (blue)
+
+    0  ==> 0
+    1  ==> 1
+    2  ==> 2
+    3  ==> 3
+    4  ==> 4
+    5  ==> 5
+    6  ==> 6
+    7  ==> 7
+    8  ==> 8
+    9  ==> 9
+    10  ==> a
+    11  ==> b
+    12  ==> c
+    13  ==> d
+    14  ==> e
+    15  ==> f
